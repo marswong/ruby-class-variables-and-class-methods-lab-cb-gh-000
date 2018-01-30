@@ -13,4 +13,16 @@ class Song
     @@artists << artist
     @@genre << genre
   end
+
+  def count
+    @@count
+  end
+
+  def artists
+    @@artists
+  end
+
+  def genres
+    @@genre
+  end
 end
